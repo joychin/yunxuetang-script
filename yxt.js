@@ -53,7 +53,6 @@
             checkMoreOpen();
             //完成度检测
             detectionComplete();
-
         }, 30 * 1000);
 
     } else if (path.match(/^\/kng\/.*\/video.*/g) || path.match(/^\/kng\/course\/package\/video.*/g)) {
@@ -77,7 +76,6 @@
         window.setTimeout(function () {
             $('#btnStartStudy').click();
         }, 3 * 1000)
-
     } else if (path.match(/^\/sty.*/g)) {
         console.log('学习任务签到');
         signdata();
@@ -131,7 +129,7 @@
         const date = new Date();
         console.info(date.toLocaleString() + ' 检测播放状态...')
         if (myPlayer.getState() == 'playing') {
-            console.log("播放中...啥也不操作了");
+            console.log("播放中");
         } else if (myPlayer.getState() == 'paused') { //暂停
             console.log("暂停啦！！！");
             var $ = window.$;
