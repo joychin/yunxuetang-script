@@ -1,8 +1,11 @@
 # 云学堂刷课脚本
 
-本脚本基于 [GreasyFork 云学堂刷课脚本](https://greasyfork.org/zh-CN/scripts/403295-%E4%BA%91%E5%AD%A6%E5%A0%82%E8%87%AA%E5%8A%A8%E5%88%B7%E8%A7%86%E9%A2%91-yunxuetang-cn) 修改而成。
+- 本脚本基于 [GreasyFork 云学堂刷课脚本](https://greasyfork.org/zh-CN/scripts/403295-%E4%BA%91%E5%AD%A6%E5%A0%82%E8%87%AA%E5%8A%A8%E5%88%B7%E8%A7%86%E9%A2%91-yunxuetang-cn) 修改而成。
 
-修改内容如下：
+- 由于浏览器的安全限制，Javascript不能再用户和网页交互前，无法自动播放视频。因此，启用本脚本前，需要在设置中启用网站的自动播放特性。
+
+
+#修改内容如下：
 
 -------------------------------------------------
 2023/02/26:
